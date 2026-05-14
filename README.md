@@ -56,8 +56,6 @@ llm-driven-wind-turbine-maintenance-log-labelling/
 │   └── llm_clients/
 │       ├── __init__.py
 │       └── openai_client.py        # Schema-agnostic asynchronous API wrapper
-├── tests/
-│   └── test_pipeline_discrepancies.py      
 ├── orchestration_template.ipynb    # Unified Jupyter Notebook for end-user execution
 ├── requirements.txt                # Python dependencies
 └── README.md                       # Project documentation
@@ -137,12 +135,12 @@ The entire workflow is orchestrated through a single Jupyter Notebook.
 
 The pipeline appends phase-prefixed outputs rather than overwriting legacy columns. Key additions include:
 
-* **P1_ / P2_ columns:** System code correction and audit outputs (suggested codes, confidence, review flags).
-* **Legacy_System_Code / Merged_System_Code / System_Code_Corrected_Flag:** Preserved original system code, threshold-gated system code merge result, and correction indicator.
-* **P4_ columns:** Granular maintenance/action/failure labels, including operational/semantic confidence flags.
-* **Legacy_Maintenance_Type / Legacy_Action_Taken:** Preserved original granular labels.
-* **Merged_Maintenance_Type / Merged_Action_Taken / Merged_Failure_Mode (+ Mechanism/Cause/Symptom):** Corrected merge outputs for downstream analysis.
-* **Maintenance_Type_Corrected_Flag / Action_Taken_Corrected_Flag:** Boolean indicators marking threshold-approved granular label changes.
+* **`P1_ / P2_ columns`:** System code correction and audit outputs (suggested codes, confidence, review flags).
+* **`Legacy_System_Code / Merged_System_Code / System_Code_Corrected_Flag`:** Preserved original system code, threshold-gated system code merge result, and correction indicator.
+* **`P4_ columns`:** Granular maintenance/action/failure labels, including operational/semantic confidence flags.
+* **`Legacy_Maintenance_Type / Legacy_Action_Taken`:** Preserved original granular labels.
+* **`Merged_Maintenance_Type / Merged_Action_Taken / Merged_Failure_Mode (+ Mechanism/Cause/Symptom)`:** Corrected merge outputs for downstream analysis.
+* **`Maintenance_Type_Corrected_Flag / Action_Taken_Corrected_Flag`:** Boolean indicators marking threshold-approved granular label changes.
 
 Pitch keyword detection and isolated pitch system prefixes are configurable via `TaxonomyConfig`. The `pitch_system_prefixes` setting is required when pitch-sensitive correction is active, because it drives both the pitch-only branch and the restricted non-pitch branch. Per-task confidence thresholds are configured in `PipelineRulesConfig`; failure-mode threshold enforcement exists but is disabled by default via `enforce_failure_mode_thresholds=False`.
 
@@ -154,13 +152,13 @@ If you encounter any issues or have suggestions for improvements, please open an
 
 ---
 
-## License
+### License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## Contact
+### Contact
 
 Max Malyi - Max.Malyi@ed.ac.uk
 
