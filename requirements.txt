@@ -1,0 +1,14 @@
+# Data manipulation and I/O operations
+pandas==2.3.3
+
+# OpenAI API client for asynchronous LLM requests
+openai==1.109.1
+
+# Local JSON Schema validation for structured LLM outputs
+jsonschema==4.25.0
+
+# Visualisation for the post-processing QA distribution
+matplotlib==3.10.9
+
+# Jupyter environment to run the orchestration_template.ipynb
+jupyter==1.1.1
