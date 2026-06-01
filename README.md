@@ -1,20 +1,20 @@
 ## LLM-Driven Wind Turbine Maintenance Log Labelling Framework: <br> Data Correction and Enrichment via Semantic Extraction of Reliability Intelligence
 
-[![DOI](https://zenodo.org/badge/1238013053.svg)](https://doi.org/10.5281/zenodo.20446036) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)](https://www.python.org/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![arXiv](https://img.shields.io/badge/arXiv-2605.31281-b31b1b.svg)](https://arxiv.org/abs/2605.31281) [![DOI](https://zenodo.org/badge/1238013053.svg)](https://doi.org/10.5281/zenodo.20446036)
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mvmalyi/) [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-1503-9798) [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Max-Malyi) [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=FgcRBeUAAAAJ)
 
 A robust, model-agnostic pipeline leveraging Large Language Models (LLMs) to automatically standardise, categorise, and extract reliability intelligence from unstructured wind turbine maintenance work orders. 
 
 This repository contains the underlying Python architecture, dynamic prompts, and data schemas for the following paper. If you utilise this framework in your academic or commercial research, please cite our work accordingly:
-> M. Malyi, J. Shek, A. McDonald, and A. Biscaya, “Wind Turbine Maintenance Log Labelling Framework: LLM-Driven Data Correction and Enrichment via Semantic Extraction of Reliability Intelligence.”
+> M. Malyi, J. Shek, A. McDonald, and A. Biscaya, 2026. Wind Turbine Maintenance Log Labelling Framework: LLM-Driven Data Correction and Enrichment via Semantic Extraction of Reliability Intelligence. Preprint. arXiv:2605.31281
 
 **BibTeX:**
 ```bibtex
 @article{malyi2026wind,
   title={Wind Turbine Maintenance Log Labelling Framework: LLM-Driven Data Correction and Enrichment via Semantic Extraction of Evidence-Based Failure Modes},
   author={Malyi, Max and Shek, Jonathan and McDonald, Alasdair and Biscaya, Andr{\'e}},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2605.31281},
   year={2026}
 }
 ```
