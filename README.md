@@ -1,6 +1,6 @@
 ## LLM-Driven Wind Turbine Maintenance Log Labelling Framework: <br> Data Correction and Enrichment via Semantic Extraction of Reliability Intelligence
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![arXiv](https://img.shields.io/badge/arXiv-2605.31281-b31b1b.svg)](https://arxiv.org/abs/2605.31281) [![DOI](https://zenodo.org/badge/1238013053.svg)](https://doi.org/10.5281/zenodo.20446036)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![arXiv](https://img.shields.io/badge/arXiv-2605.31281-b31b1b.svg)](https://arxiv.org/abs/2605.31281) [![Zenodo DOI](https://zenodo.org/badge/1238013053.svg)](https://doi.org/10.5281/zenodo.20446036)
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mvmalyi/) [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-1503-9798) [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Max-Malyi) [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=FgcRBeUAAAAJ)
 
